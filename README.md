@@ -4,21 +4,21 @@ jquery.tweener.js
 jQuery plugin which uses the TweenLite library for animate elements defined by 
 data attribute fieldset data-init and data-to.
 
-Dependency:
+**Dependency**:
 ___________
-  * [jQuery 1.8+](http://jquery.com/ "jQuery")
-  * [Underscore](http://underscorejs.org/ "Underscore")
-  * [TweenLite](http://www.greensock.com/tweenlite/ "TweenLite")
-  
+  * <a href="http://jquery.com/" target="_blank" title="jQuery">jQuery 1.8+</a>
+  * <a href="http://underscorejs.org/" target="_blank" title="Underscore">Underscore</a>
+  * <a href="http://www.greensock.com/tweenlite/" target="_blank" title="TweenLite">TweenLite</a>
 
-Usage HTML:
+
+**Usage HTML**:
 __________
     <div id="tween_element" data-init="{x:-100, y:-100, alpha:0}" data-to="{x:0, y:0, ease:'Elastic.easeOut'}">
         This is a tweenable element
     </div>
 
 
-Usage JavaScript:
+**Usage JavaScript**:
 ________________
     <script>
         // initialize all data-init elements
