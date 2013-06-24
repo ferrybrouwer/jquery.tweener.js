@@ -12,6 +12,6 @@ ___________
   
 Usage:
 ______
-  `<div id="tween_element" data-init="{x:-100, y:-100, alpha:0}" data-to="{x:0, y:0, ease:'Elastic.easeOut'}">`
+  `<div id="tween_element" data-init="{x:-100, y:-100, alpha:0}" data-to="{x:0, y:0, ease:'Elastic.easeOut'}">
     This is a tweenable element
-  `</div>`
+  </div>`
