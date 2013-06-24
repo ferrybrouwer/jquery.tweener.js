@@ -1,7 +1,7 @@
 jquery.tweener.js
 =================
 
-jQuery plugin which uses the TweenLite library for animate elements defined by 
+A lightweight jQuery plugin which uses the TweenLite library for animate elements defined by 
 data attribute fieldset data-init and data-to. The advantage of using this library 
 is that your code will be clean by using data-fieldsets to provide tweening properties in specified states (init, to, from).
 
