@@ -8,6 +8,7 @@ is that your code will be clean by using data-fieldsets to provide tweening prop
 
 **Dependency**:
 ___________
+  * <a href="http://modernizr.com" target="_blank" title="Modernizr">Modernizr</a>
   * <a href="http://jquery.com/" target="_blank" title="jQuery">jQuery 1.8+</a>
   * <a href="http://underscorejs.org/" target="_blank" title="Underscore">Underscore</a>
   * <a href="http://www.greensock.com/tweenlite/" target="_blank" title="TweenLite">TweenLite</a>
