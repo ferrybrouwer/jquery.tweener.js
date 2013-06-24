@@ -6,9 +6,9 @@ data attribute fieldset data-init and data-to.
 
 Dependency:
 ___________
-  * jQuery 1.8+
-  * underscore.js
-  * TweenLite.js (greensock)
+  * jQuery 1.8+ (http://jquery.com/)
+  * underscore.js (http://underscorejs.org/)
+  * TweenLite.js (http://www.greensock.com/tweenlite/)
   
 
 Usage HTML:
