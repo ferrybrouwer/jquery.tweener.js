@@ -10,11 +10,13 @@ ___________
   * underscore.js
   * TweenLite.js (greensock)
   
+
 Usage HTML:
 __________
     <div id="tween_element" data-init="{x:-100, y:-100, alpha:0}" data-to="{x:0, y:0, ease:'Elastic.easeOut'}">
         This is a tweenable element
     </div>
+
 
 Usage JavaScript:
 ________________
@@ -30,4 +32,13 @@ ________________
            speed : .5,
            ease  : 'Back.easeOut'
         });
+        
+        // after 2s animate back to it's initialize state
+        // the duration of animation must be 2s
+        setTimeout(function(){
+           $div.tweener('animateInit', {
+              speed : 2
+           });
+        }, 2000);
+        
     </script>
